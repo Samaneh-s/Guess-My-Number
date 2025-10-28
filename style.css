@@ -1,0 +1,166 @@
+/* numberColor: #A47CF3
+backgroundcolor:  #2E026D, #6E34C8
+textcolor: #281b59
+textcolor2:#a59bbc
+textcolor3:#301b59 */
+
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background: linear-gradient(#2E026D, #6E34C8);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #eee;
+
+}
+
+.btn {
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  outline: none;
+  transition: all 0.2s ease;
+
+}
+
+.btn:hover {
+  background-color: #3b0075;
+  color: #eee;
+  border: 2px solid #a59bbc;
+  transform: scale(1.03);
+}
+
+.again {
+  position: absolute;
+  top: -1rem;
+  left: 59rem;
+  padding: 1rem 2rem;
+  color: #eee;
+  border: 2px solid #9c5aff;
+  background-color: #9c5aff;
+  box-shadow: 0 0 2rem #9c5aff;
+}
+
+.between {
+  color: #a59bbc;
+  font-size: 3rem;
+
+
+}
+
+.number {
+  background-color: #A47CF3;
+  border-radius: 2rem;
+  border: 2px solid #9c5aff;
+  box-shadow: 0 0 2rem #9c5aff;
+  color: #3b0075;
+  font-size: 6rem;
+  width: 10rem;
+  height: 10rem;
+  line-height: 100px;
+  border-radius: 16px;
+  margin: 2rem auto 3rem auto;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 5px;
+}
+
+
+.guess {
+  color: #3b0075;
+  width: 40rem;
+  /* max-width: 28rem; */
+  height: 8rem;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 5px;
+  margin-right: 6px;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  outline: none;
+  text-align: center;
+
+
+}
+
+.guess::placeholder {
+  color: #a59bbc;
+}
+
+.check {
+  background-color: #A47CF3;
+  color: #3b0075;
+  width: 40rem;
+  height: 8rem;
+
+}
+
+.bottom {
+  font-size: 2rem;
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+
+}
+
+.bottom p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.message {
+  min-height: 2.8rem;
+}
+
+.score-label {}
+
+.score {}
+
+.highscore-label {}
+
+.highscore {}
