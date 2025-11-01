@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: sans-serif;
   color: #eee;
   background: linear-gradient(#2E026D, #6E34C8);
   height: 100vh;
