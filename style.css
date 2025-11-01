@@ -5,7 +5,7 @@ textcolor2:#a59bbc
 textcolor3:#301b59 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
 
 * {
   margin: 0;
@@ -19,6 +19,7 @@ html {
   box-sizing: border-box;
 }
 
+/* 'Press Start 2P' */
 body {
   font-family: sans-serif;
   color: #eee;
