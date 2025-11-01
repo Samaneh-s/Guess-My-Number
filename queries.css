@@ -1,0 +1,56 @@
+/*1rem=1em=16px
+
+/***************************/
+/* BELOW 1344PX (SMALLER DESKTOPS)*/
+/***************************/
+@media(max-width:84em) {
+
+  .again {
+    position: absolute;
+    top: -1rem;
+    left: 50rem;
+
+  }
+
+  h1 {
+    position: relative;
+    top: 3rem;
+    margin-bottom: 4rem;
+
+  }
+
+  .between {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .number {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+
+  }
+}
+
+/***************************/
+/* BELOW1200PX (LANDSCAPE TABLETS)*/
+/***************************/
+
+
+
+/***************************/
+/* BELOW 944PX ( TABLETS)*/
+/***************************/
+
+
+
+/***************************/
+/* BELOW 704PX (SMAll TABLETS)*/
+/***************************/
+
+
+
+
+/***************************/
+/*BELOW 544px (Phones)*/
+/***************************/

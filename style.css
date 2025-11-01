@@ -31,12 +31,14 @@ body {
   text-align: center;
   gap: 1rem;
   padding: 2rem;
+  position: relative;
 }
 
 h1 {
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-top: 6rem;
   margin-bottom: 1rem;
   font-size: 5rem;
   font-weight: 700;
@@ -68,16 +70,19 @@ h1 {
   position: absolute;
   top: -1rem;
   left: 59rem;
+  /* left: 50%; */
   padding: 1rem 2rem;
   color: #eee;
   border: 2px solid #9c5aff;
   background-color: #9c5aff;
   box-shadow: 0 0 2rem #9c5aff;
+  /* margin-bottom: 10rem; */
 }
 
 .between {
   color: #a59bbc;
   font-size: 3rem;
+  margin-bottom: 5rem;
 
 
 }
@@ -89,11 +94,11 @@ h1 {
   box-shadow: 0 0 2rem #9c5aff;
   color: #3b0075;
   font-size: 6rem;
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   line-height: 100px;
   border-radius: 16px;
-  margin: 2rem auto 3rem auto;
+  margin: 2rem auto 7rem auto;
   font-weight: bold;
   display: flex;
   justify-content: center;
